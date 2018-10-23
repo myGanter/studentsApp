@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Scada');
+
+.head{
+    margin: 10px 0;
+    width: 32.14em;
+}
+
+body{
+    font-family: "Scada";
+}
+
+.mainTable{
+    margin: 10px 25px; 
+}
+
+#addRecord{
+    margin: 50px 0;
+}
+.addBut{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+#app{
+    margin: 0 15px;
+}
+
+table{
+    width: 100%;
+}
+
+table td{
+    padding: 5px;       
+    border: 2px solid #ffffff;
+    text-align: center;
+}
+
+table tr:last-child td{
+    border-radius:0px 0px 20px 20px;
+}
+
+table th{      
+    padding: 14px;    
+    text-align: center;
+}
+
+.inputPole{   
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;    
+}
+
+.inputContainer{
+    width: 500px;
+    background: white;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.inputHeading{
+    border-radius:20px 20px 0px 0px;
+    padding: 9px;
+    background: #cccccc;
+    color: #000000;
+    text-align: center;
+    font-size: 22px;
+}
+
+.inputContent{
+    border-radius:0px 0px 10px 10px;
+    background: #eeeeee;    
+    padding: 44px;
+}
+
+#closWindow{
+    float: right;
+}
+.formAdUp{
+    margin-bottom: 30px;   
+}
+
+.groupName{
+    text-align: center;
+    margin: 4px 0 15px 0;
+}
+
+.red{
+    background: #ce2f2f;
+}
+
+.yellow{
+    background:  #e0f713;
+}
+
+.green{
+    background: #26eb2f
+}
